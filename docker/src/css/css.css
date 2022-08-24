@@ -1,0 +1,57 @@
+@charset "utf-8";
+body {
+	background-image: url("../images/bg.jpg");
+    background-size:100% 100%;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 25px;
+	color: #333;
+    
+}
+        
+#container {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100%;
+}
+.nav {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #738CAA;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.main {
+	background-image: url(bj.png);
+	color: #000;
+}
+a {
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #333;
+}
+.title {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #200F15;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #200F15;
+	padding-left: 10px;
+	color: #AD5A5A;
+}
